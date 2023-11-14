@@ -4,6 +4,7 @@
     --bs-body-font-family: 'Kumbh Sans', sans-serif;
   };
   text-align: center;
+  margin-bottom: 0px;
 
   .header {
     padding-top: 50px;

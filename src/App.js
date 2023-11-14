@@ -42,11 +42,11 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className='d-block d-sm-block d-md-none'>
+                <div className='d-block d-sm-block d-md-none mb-3'>
                   <div className='d-flex d-row justify-content-between'>
-                    <div className='col- text-start ps-3'><a href="/"><img src={logo} alt='logo'/></a></div>
-                    <div className='col-3 text-end'>
-                      <div className='switch-mode d-flex d-row '>
+                    <div className='col-6 text-start ps-3'><a href="/"><img src={logo} alt='logo'/></a></div>
+                    <div className='col-6 text-end'>
+                      <div className='switch-mode d-flex d-row justify-content-end'>
                         <div className='col-2 text-start'><img src={sun} alt='sun'/></div>
                         <div className="col-2 form-check form-switch">
                           <input className="form-check-input" onChange={ToggleTheme} type="checkbox" role="switch" 

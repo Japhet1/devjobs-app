@@ -22,9 +22,9 @@ const Cards = ({data}) => {
     
     return (
         <div className="container">
-            <Form className="d-none d-md-block d-lg-block d-xl-block container text-center py-3 px-md-4 rounded-2 main">
-                <Form.Group className="d-flex d-row align-items-center justify-content-evenly">
-                    <div className="col-md-4 col-lg-5">
+            <Form className=" d-md-block d-lg-block d-xl-block container text-center py-3 px-md-4 rounded-2 main">
+                <Form.Group className="d-md-flex d-md-row d-lg-flex d-lg-row align-items-center justify-content-evenly">
+                    <div className="col-12 col-md-4 col-lg-5">
                         <Form.Group className="d-flex d-row align-items-center text-center" controlId="">
                             <div className="col-2 pe-3"><img src={search} alt='search' style={{height:24 , width:24}}/></div>
                             <div className="col-9"><Form.Control className="border-0 main color" type="text" placeholder="Filter by companies, expertise…" 
@@ -33,7 +33,7 @@ const Cards = ({data}) => {
                              }}/></div>
                         </Form.Group>
                     </div>
-                    <div className="col-md-4 col-lg- d-none d-md-block d-lg-block d-xl-block">
+                    <div className="col-12 my-3 col-md-4 col-lg-4  d-md-block d-lg-block d-xl-block">
                         <Form.Group className="d-flex d-row align-items-center text-center" controlId="">
                             <div className="col-2 pe-3"><img src={location} alt='location'  style={{height:24 , width:17}}/></div>
                             <div className="col-9"><Form.Control className="border-0 main color" type="text" placeholder="Filter by location..." 
@@ -43,7 +43,7 @@ const Cards = ({data}) => {
                         </Form.Group>
                     </div>
                         
-                    <div className="col-md-4 col-lg-3 d-none d-md-block d-lg-block d-xl-block">
+                    <div className="col-12 col-md-4 col-lg-3  d-md-block d-lg-block d-xl-block">
                         <Form.Group className="d-flex d-row align-items-center text-center" controlId="">
                             <div className="col-2 pe-3"><img src={location} alt='location'  style={{height:24 , width:17}}/></div>
                             <div className="col-9"><Form.Control className="border-0 main color" type="text" placeholder="Filter by contract..." 

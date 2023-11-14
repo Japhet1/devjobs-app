@@ -20,7 +20,7 @@ const Details = ({data}) => {
                         return(
                             <div key={key}>
                                 
-                                <div className="container px-5 justify-content-center">
+                                <div className="container px-lg-5 justify-content-center">
 
                                     <div className="negative-margin rounded-2 main d-none d-md-block d-lg-block d-xl-block ">
                                         <div className="d-flex d-row align-items-center">
@@ -39,7 +39,7 @@ const Details = ({data}) => {
                                     <div className="negative-margin rounded-2 main d-block d-sm-block d-md-none">
                                         <div className="d-flex d-row justify-content-center">
                                             <div className="col-2 d-block  px-7 py-3 rounded-4 negative-margin-icon" style={{backgroundColor:job.logoBackground}}>
-                                                <img src={job.logo} alt="logo2"/>   
+                                                <img src={`.${job.logo}`} alt="logo2"/>   
                                             </div>
                                         </div>
                                         <div className="col-12 pt-3 pb-4">
